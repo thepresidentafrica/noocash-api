@@ -1,0 +1,45 @@
+{
+  "name": "api",
+  "version": "0.0.10",
+  "description": "Modern API Development using Nodejs,Graphql,express, docker, azure,github,hasura, prisma amd pm2.",
+  "main": "dist/stc/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "url": "https://github.com/mitch1009/api-monorepo.git",
+    "type": "git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "nodejs",
+    "hasura",
+    "graphql",
+    "prisma",
+    "pm2",
+    "docker"
+  ],
+  "author": {
+    "name": "Mitch Chimwemwe Chanza",
+    "url": "https://mitch.guru",
+    "email": "hello@mitch.guru"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.16",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}

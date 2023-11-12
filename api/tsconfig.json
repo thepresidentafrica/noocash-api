@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+  
+    "incremental": true,  
+    "composite": true, 
+    "target": "ES2022", 
+    "module": "NodeNext", 
+    "moduleResolution": "NodeNext",
+    "rootDirs": ["src"], 
+    "outDir": "./dist",   
+    "strict": true, 
+    "noImplicitAny": true, 
+    "alwaysStrict": true,   
+    "noUnusedLocals": true,  
+    "noUnusedParameters": true,  
+    "skipLibCheck": true ,
+    "esModuleInterop":true
+  }
+}

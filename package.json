@@ -1,0 +1,12 @@
+{
+  "name": "api-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "pnpm --filter api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,7 @@
+{
+    "watch": ["src","graphql","prisma"],
+    "ext": "ts,graphql,json,prisma",
+
+    "exec": "ts-node ./src/main.ts"
+  }
+  
