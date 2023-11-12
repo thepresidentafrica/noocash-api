@@ -1,5 +1,5 @@
 {
-    "watch": ["src","graphql","prisma,tsconfig.json,package.json,.env"],
+    "watch": ["src","graphql","hasura","prisma,tsconfig.json,package.json,.env"],
     "ext": "ts,graphql,json,prisma,js,env",
     "ignore": ["**/*.spec.ts","**/*.spec.graphql","**/*.spec.json","**/*.spec.js"],
     "execMap": {
