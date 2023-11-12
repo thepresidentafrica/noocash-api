@@ -1,6 +1,10 @@
 {
-    "watch": ["src","graphql","prisma"],
-    "ext": "ts,graphql,json,prisma",
+    "watch": ["src","graphql","prisma,tsconfig.json,package.json,.env"],
+    "ext": "ts,graphql,json,prisma,js,env",
+    "ignore": ["**/*.spec.ts","**/*.spec.graphql","**/*.spec.json","**/*.spec.js"],
+    "execMap": {
+      "ts": "ts-node ./src/main.ts"
+    },
 
     "exec": "ts-node ./src/main.ts"
   }
