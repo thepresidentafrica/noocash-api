@@ -1,0 +1,13 @@
+type Response {
+    message: String!
+    success: Boolean!
+    error: String
+}
+
+type Query {
+    hello: String
+}
+
+type Mutation {
+    hello: String
+}
